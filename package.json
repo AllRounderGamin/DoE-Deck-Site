@@ -1,0 +1,14 @@
+{
+  "name": "doe-deck-selector",
+  "version": "1.0.0",
+  "description": "Deck Selector for Weekly Alt Tournament and Draft format for Duelists of Eden",
+  "main": "index.html",
+  "scripts": {
+    "test": "http-server ./"
+  },
+  "author": "AllRounderGamin",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}

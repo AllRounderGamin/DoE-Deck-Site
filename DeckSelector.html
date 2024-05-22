@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weekly Alt Deck Selector</title>
+    <script src="DeckSelector.js"></script>
+    <link href="./DeckSelector.css" rel="stylesheet">
+</head>
+<body>
+<div class="buttons">
+    <button type="button" id="generateButton">Generate Deck Set</button>
+    <button type="button" id="resetButton">Reset Removed Decks</button>
+    <a download id="downloadLink" href="../WeekAltDeckList2.txt">Download Week Alt Deck List (Ver 2)</a>
+</div>
+<div id="decks">
+    <div id="deck1" class="deckBox"></div>
+    <div id="deck2" class="deckBox"></div>
+    <div id="deck3" class="deckBox"></div>
+</div>
+<div class="buttons">
+    <button type="button" id="copyButton">Copy to Clipboard</button>
+</div>
+
+<p id="warningText"></p>
+
+<div id="dropZone"> 
+    <p>Drop Decklist Here (TXT)</p>
+    <p>List available at the top of the screen is loaded by default</p> 
+    <p>Decks previously selected are stored locally, should you close or refresh the page accidentally and was using a different list simply redrop the decklist here and picked decks will be remembered</p>
+    <p>If you drop a new list (or wish to reset progress from the previous tournament) please hit "Reset Removed Decks" before generating</p>
+</div>
+</body>
+</html>

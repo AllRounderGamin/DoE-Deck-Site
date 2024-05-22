@@ -1,0 +1,762 @@
+"Selicy;
+Day 1 Duelin';
+SpellCardSleeve;
+Breakout,AutoSlash,FrostSlash,ManaCatch,FrostBarrage,StepLance,Whirl,Vortex,AirRifle,PushSlash"
+"Queen;
+woah u go big guy;
+SerifSleeve;
+AirRifle,Backstab,HyperBeam,IonCannon,KineticWave,Thunder,Minigun,PushSlash,Tsunami"
+"Selicy;
+Slash - T;
+RedSelicySleeve;
+AutoSlash,PushSlash,KineticWave,Apprehend,DoubleTeam,Pull,Whirl,Shotgun,FrostSlash,FrostBarrage"
+"Chiretta;
+Seize (Jonty);
+ChirettaSleeve;
+Seize,Backstab,Thunder,PushSlash,Whirl,Downfall,Align,Minigun,Tetra,Ragnarok"
+"Selicy;
+stepstepstepstep ;
+RedSelicySleeve;
+StepLance,StepSlash,PushSlash,AutoSlash,Crossfire,Backstab,Northwind,Whirl"
+"Maypul;
+blehhh;
+MaypulSleeve;
+BombToss,StripMine,StepSlash,AutoSlash,StepLance,PushSlash,Shear,Backstab,StepReverse,Minigun"
+"Selicy;
+pickledinvasion ;
+SelicySleeve;
+FrostBarrage,Whirl,Rush,BackSlash,StepSlash,AutoSlash,StepLance,FireBreath"
+
+
+"Maypul;
+Yuchiban mayple;
+MaypulSleeve;
+AcidRain,Anubis,Kunai,ShadowShift,Rush,AutoSlash,FrostBarrage,Venoshock"
+
+
+"Hazel;
+GRASPS YOU;
+HazelSleeve;
+DarkGrasp,Pull,Apprehend,DoubleTeam,Blink,StepSlash,AutoSlash,DiagBeam"
+"Gunner;
+B&I Dojo 1^;
+SpellCardSleeve;
+AirRifle,ShadowShift,Northwind,Rush,Vivisection,Combust,AutoSlash,Vortex,Northwind"
+
+"Harissa;
+Pillar of Underworld;
+SpellCardSleve; 
+StepSlash,AutoSlash,Minigun,Kunai,KineticWave,Entrench,BouncingBlade,Paragon,Venoshock"
+"Shopkeeper;
+PMattg #2;
+SpellCardSleeve;
+ClawTrap,Fadeaway,KineticWave,Align,Mine,TripleBarrel,Guillotine,Ultrangle,BowSnipe,Ragnarok"
+"Shopkeeper;
+Toothpaste ;
+LandscapeRedSleeve;
+Fadeaway,KineticWave,Thunder,ClawTrap,Align,Mine,Guillotine,TripleBarrel,Ragnarok,BowSnipe"
+"Neera;
+B&I Dojo #2^;
+SpellCardSleeve;
+WreckingBall,StepSlash,PushSlash,Backstab,SwallowSpear,Transmute,SummonBeamCrystal,BombToss,FrostSlash,SpearWave"
+"Queen;
+Snowfall ;
+SpellCardSleeve;
+FrostBarrage,CrystalRifle,SnowCone,ClawTrap,AutoSlash,StepSlash,BouncingBlade,Heatseekers,Missiletow"
+"Chiretta;
+Training Arc;
+SpellCardSleeve;
+Shear,StepSlash,Whirl,Thunder,Blink,Backstab,Entangle,TripleBarrel"
+"Hazel;
+Hazelnut;
+LandscapeRedSleeve;
+Whirl,AutoSlash,Backstab,WarpRays,StepSlash,Missiletow,PushSlash,Apprehend,Rush,Blink"
+"Dreadwyrm;
+Kingslayer;
+LandscapeRedSleeve;
+Rage,Pyroblast,Entangle,AutoSlash,BouncingBlade,Javelin,Kunai,ClawTrap"
+
+"Chiretta;
+IWouldntImpersonate;
+RedSelicySleeve;
+Seize,Align,Tetra,Downfall,TripleBarrel,PushSlash,ManaCatch,Blink,Backstab,Northwind"
+"Harissa;
+Salamander Surprise ;
+RedRevaSleeve;
+Salamander,Stinger,Firewall,FireBreath,StepBlaze,PushSlash,BombToss,Pyroblast,Kunai,Backstab"
+"Chiretta;
+IWouldntImpersonate;
+RedSelicySleeve;
+Seize,Align,Tetra,Downfall,TripleBarrel,PushSlash,ManaCatch,Blink,Backstab,Northwind"
+"Shiso;
+Farewell.;
+SpellCardSleeve;
+StepSlash,AutoSlash,FireBreath,Whirl,Entangle,Backstab,PushSlash,Minigun,Javelin,ManaCatch"
+"Shopkeeper;
+Heart of Eternity;
+SpellCardSleeve;
+Align,TripleBarrel,KineticWave,Fadeaway,ClawTrap,Ragnarok,Guillotine,Mine,BombToss,Minigun"
+"Violette;
+Vio;
+SpellCardSleeve;
+Backstab,AutoSlash,PushSlash,Thunder,Whirl,BombToss,StripMine,ClawTrap,StepSlash,FireBreath"
+"Chiretta;
+Exodus Sondz;
+ChirettaSleeve;
+Seize,Align,Tetra,Downfall,TripleBarrel,PushSlash,ManaCatch,Blink,Backstab,Northwind"
+
+"Queen;
+for u ;
+SpellCardSleeve;
+Anubis,Kunai,Venoshock,AcidRain,IonCannon,PushSlash,Backstab,Thunder,Tsunami"
+"Shopkeeper;
+Trap Cycle - T;
+ShopkeeperSleeve;
+Seize,PushSlash,Tsunami,Fadeaway,Mine,BombToss,SummonBeamCrystal,ManaCatch"
+"Chiretta;
+Seize (backrow) ;
+ChirettaSleeve;
+Seize,Backstab,Thunder,PushSlash,Whirl,Blink,Pull,Downfall,Minigun,Tetra"
+"Selicy;
+xynothegoat ;
+SelicySleeve;
+SnowCone,StepLance,StepSlash,Shear,AutoSlash,PushSlash,BackSlash,Backstab,FrostBarrage"
+
+"Selicy;
+xynothegoat ;
+SelicySleeve;
+SnowCone,StepLance,StepSlash,Shear,AutoSlash,PushSlash,Backstab,FrostBarrage,BackSlash"
+
+
+"Saffron;
+Yuchiban mark saff ;
+SpellCardSleeve;
+SpearCatch,Javelin,ClawTrap,Rocket,MagicClaw,Reaper,Needler,Inverter"
+
+
+"Hazel;
+W(R)ENCH;
+HazelSleeve;
+IcePick,Pull,Apprehend,DoubleTeam,Blink,StepSlash,AutoSlash,SnowCone,DiagBeam"
+
+
+
+
+"Shopkeeper;
+Toothpaste ;
+LandscapeRedSleeve;
+Fadeaway,KineticWave,Thunder,ClawTrap,Align,Mine,Guillotine,TripleBarrel,Ragnarok,BowSnipe"
+
+"Violette;
+NeonGlow;
+RedSaffronSleeve;
+Hailstone,StepSlash,AutoSlash,Whirl,Thunder,Backstab,PushSlash,BombToss,Minigun,FireBreath"
+
+"Terra;
+Snap Crackle Pop *;
+SpellCardSleeve;
+Earthquake,Lockdown,Align,Flurry,TripleBarrel,Whirl,SummonBarricade,AirRifle,KineticWave,PushSlash"
+"Dreadwyrm;
+Dread Stuff VIII;
+SpellCardSleeve;
+ClawTrap,StepSlash,AutoSlash,Kunai,BouncingBlade,FireBreath,Javelin,Minigun,Blink"
+
+"Queen;
+Queen of the Backrow;
+QueenSleeve;
+Blink,Rush,StepSlash,Kunai,PushSlash,BouncingBlade,KineticWave,Minigun,AutoSlash"
+
+"Queen;
+Queen of the Backrow;
+QueenSleeve;
+Blink,Rush,StepSlash,Kunai,PushSlash,BouncingBlade,KineticWave,Minigun,AutoSlash"
+"Violette;
+Composite;
+RedSaffronSleeve;
+StepSlash,AutoSlash,Whirl,Thunder,Backstab,PushSlash,BombToss,FireBreath,ClawTrap,StripMine"
+"Shopkeeper;
+Heck you funkiwi;
+ShopkeeperSleeve;
+Cataclysm,KineticWave,Fadeaway,ClawTrap,Align,Guillotine,TripleBarrel,Ragnarok,FireBreath,StripMine"
+"Saffron;
+Vio 4;
+SpellCardSleeve;
+StepSlash,AutoSlash,PushSlash,Whirl,ClawTrap,StripMine,Paragon,BombToss,Backstab,FireBreath"
+"Queen;
+Sondz #2;
+SpellCardSleeve;
+Blink,Rush,StepSlash,Kunai,PushSlash,BouncingBlade,KineticWave,Minigun,AutoSlash,ClawTrap"
+
+"Maypul;
+maypul ;
+SpellCardSleeve;
+Backstab,PushSlash,Kunai,Anubis,Venoshock,Boomerang,Firewall,Tailwind,Shotgun"
+"Shopkeeper;
+Specialist - T;
+ShopkeeperSleeve;
+PushSlash,KineticWave,Tsunami,Ragnarok,Guillotine,Mine,AcidRain,SummonBarricade,BombToss,SummonBeamCrystal"
+"Chiretta;
+Seize (Structures);
+ChirettaSleeve;
+Seize,Backstab,Thunder,PushSlash,Whirl,FireBreath,Downfall,Minigun"
+
+
+"Saffron;
+w1 carry me plez ;
+RedSaffronSleeve;
+KineticWave,Thunder,Whirl,Minigun,AirRifle,AutoSlash,PushSlash,Backstab,BombToss,Pull"
+
+
+
+
+
+"Hazel;
+ANOOBIS;
+HazelSleeve;
+Anubis,Pull,Apprehend,DoubleTeam,Blink,StepSlash,AutoSlash,DiagBeam"
+
+
+
+
+"Shopkeeper;
+0-06-40 ;
+LandscapeRedSleeve;
+Ember,WreckingBall,ClawTrap,ManaCatch,Align,Mine,TripleBarrel,Ultrangle,Ragnarok"
+
+"Shiso;
+GunnerM;
+SpellCardSleeve;
+StepSlash,AutoSlash,Whirl,Entangle,ClawTrap,Minigun,Javelin,Backstab,PushSlash,FireBreath"
+
+"Harissa;
+Splish Slash;
+SpellCardSleeve;
+StepSlash,AutoSlash,KineticWave,Whirl,Kunai,Venoshock,Paragon,Minigun,Entrench,DoubleTeam"
+
+
+"Maypul;
+SEEDPUL;
+MaypulSleeve;
+Align,TripleBarrel,Ragnarok,Thunder,StepSlash,Kunai,Strangle,ManaCatch,PushSlash,Northwind"
+
+"Maypul;
+SEEDPUL;
+MaypulSleeve;
+Align,TripleBarrel,Ragnarok,Thunder,StepSlash,Kunai,Strangle,ManaCatch,PushSlash,Northwind"
+"Queen;
+Snowfall ;
+SpellCardSleeve;
+FrostBarrage,CrystalRifle,SnowCone,ClawTrap,AutoSlash,StepSlash,BouncingBlade,Heatseekers,Missiletow"
+"Saffron;
+different character;
+SpellCardSleeve;
+AutoSlash,StepSlash,Minigun,Northwind,BouncingBlade,Paragon,Whirl,Vivisection,Inverter,Thunder"
+
+"Chiretta;
+Exodus Sondz #3;
+SpellCardSleeve;
+Sacrifire,Seize,Align,Tetra,Downfall,TripleBarrel,PushSlash,ManaCatch,Blink,Backstab"
+"Saffron;
+Day 1 Duelin';
+SpellCardSleeve;
+Tsunami,Ragnarok,Thunder,WarpRays,IonCannon,BombToss,Boomerang,Sweeper,StripMine,Align"
+"Saffron;
+Beam ;
+SpellCardSleeve;
+Tsunami,Ragnarok,WarpRays,IonCannon,BombToss,Boomerang,Align,SummonBeamCrystal,HyperBeam,Paragon"
+"Chiretta;
+Third Deck;
+ChirettaSleeve;
+Tetra,Seize,Backstab,Ragnarok,Align,Downfall,Pull,Whirl,TripleBarrel,ManaCatch"
+"Selicy;
+STEPPIES;
+RedSelicySleeve;
+StepSlash,PushSlash,AutoSlash,StepLance,Shear,Backstab,FrostBarrage,SnowCone,BackSlash,CrystalRifle"
+"Terra;
+flame;
+SpellCardSleeve;
+Ember,Combust,Firewall,Salamander,Meteors,Stinger,Pyroblast,Twinferno,BombToss"
+"Selicy;
+pickledinvasion ;
+SelicySleeve;
+Snowfall,SnowCone,FrostBarrage,Whirl,Rush,BackSlash,StepSlash,AutoSlash,StepLance"
+"Violette;
+trap;
+VioletteSleeve;
+Backstab,PushSlash,Thunder,Whirl,AutoSlash,StepSlash,ClawTrap,FireBreath,Escalation"
+
+
+"Saffron;
+Hori saffron ;
+SaffronSleeve;
+StepSlash,AutoSlash,PushSlash,SpearWave,Toxicross,Seize,HydroPump,Minigun,BouncingBlade,SpearCatch"
+
+
+"Harissa;
+Step Strike;
+HarissaSleeve;
+StepSlash,StepLance,PushSlash,FrostSlash,FrostBarrage,Breakout,AutoSlash,Twinferno"
+"Hazel;
+B&I Dojo 1;
+SpellCardSleeve;
+Anubis,ManaCatch,Venoshock,AutoSlash,ScatterSpear,Toxicross,SpearCatch,Javelin,ShadowShift,Vortex"
+
+"Queen;
+GunnerXButBetter ;
+SpellCardSleeve;
+Minigun,BouncingBlade,Kunai,StepSlash,AutoSlash,PushSlash,Venoshock,ClawTrap,DiagBeam"
+"Shiso;
+Pmattg #2;
+SpellCardSleeve;
+Entangle,StepSlash,Backstab,Thunder,PushSlash,AutoSlash,Jackhammer,Entrench"
+"Saffron;
+Combofron;
+SpellCardSleeve;
+Pull,Shotgun,Whirl,StepSlash,AutoSlash,Minigun,PushSlash,Thunder,Paragon"
+"Saffron;
+Eu frozo^;
+RedSaffronSleeve;
+StepSlash,AutoSlash,Whirl,Thunder,Backstab,PushSlash,Minigun,SummonBarricade,SnowCone,CrystalRifle"
+"Hazel;
+PMattG #3;
+SpellCardSleeve;
+Whirl,AutoSlash,Backstab,WarpRays,StepSlash,Missiletow,PushSlash,Apprehend,Rush,Blink"
+"Chiretta;
+Fourth Deck;
+SpellCardSleeve;
+Tetra,Seize,Backstab,Ragnarok,Downfall,Blink,Whirl,TripleBarrel,ManaCatch,Align"
+"Shopkeeper;
+Clear All Cathy ;
+LandscapeRedSleeve;
+Northwind,KineticWave,Fadeaway,ClawTrap,Align,Guillotine,TripleBarrel,Mine,Ragnarok,Ultrangle"
+"Selicy;
+Spear;
+LandscapeRedSleeve;
+Slowball,Javelin,SpearCatch,Transmute,SummonCrevasse,StepSlash,AutoSlash,Kunai,BouncingBlade,Pull"
+
+"Selicy;
+Test2^;
+LandscapeRedSleeve;
+StepLance,Breakout,Crossfire,SnowCone,FrostBarrage,FrostSlash,Align,Shear,PushSlash,Whirl"
+"Maypul;
+May-push ;
+MaypulSleeve;
+Venoshock,AcidRain,Anubis,Kunai,Eruption,StripMine,FrostBarrage,Backstab"
+"Selicy;
+Test2^;
+LandscapeRedSleeve;
+StepLance,Breakout,Crossfire,SnowCone,FrostBarrage,FrostSlash,Align,Shear,PushSlash,Whirl"
+"Harissa;
+Purissa;
+SelicySleeve;
+Sacrifire,StepSlash,AutoSlash,BouncingBlade,KineticWave,SummonBeamCrystal,Minigun,Inverter,Paragon,PushSlash"
+"Selicy;
+telecaster b boy;
+RedSelicySleeve;
+StepSlash,PushSlash,Minigun,AutoSlash,Crossfire,Breakout,Northwind,Shear,Javelin"
+"Shopkeeper;
+T-02-21-06 ;
+LandscapeRedSleeve;
+MagnaFlare,Ragnarok,Ember,Ultrangle,ClawTrap,ManaCatch,Mine,TripleBarrel,Align,WreckingBall"
+"Queen;
+Exodus Mickle;
+SpellCardSleeve;
+StepSlash,AutoSlash,PushSlash,ClawTrap,Kunai,ShadowShift,ManaCatch,BreakShot,FireBreath,Venoshock"
+
+"Saffron;
+Mine ;
+SpellCardSleeve;
+Tsunami,Ragnarok,Thunder,WarpRays,IonCannon,BombToss,Boomerang,StripMine,Align,SummonBeamCrystal"
+"Chiretta;
+Stolen From Shid;
+ChirettaSleeve;
+Thunder,Blink,Backstab,StepSlash,Whirl,PushSlash,Minigun,Kunai,Entangle,Ragnarok"
+"Maypul;
+maypul syrup;
+MaypulSleeve;
+SnowCone,FrostBarrage,CrystalRifle,StepSlash,AutoSlash,PushSlash,Backstab,AcidRain,Anubis,Venoshock"
+"Gunner;
+flame;
+SpellCardSleeve;
+Ember,Combust,Firewall,Salamander,Meteors,Stinger,Pyroblast,Twinferno,BombToss"
+"Selicy;
+xynothegoat ;
+SelicySleeve;
+SnowCone,StepLance,StepSlash,Shear,AutoSlash,PushSlash,Backstab,FrostBarrage,BackSlash"
+"Violette;
+sala;
+VioletteSleeve;
+Backstab,PushSlash,Thunder,Whirl,AutoSlash,StepSlash,FireBreath,Escalation,Salamander"
+
+
+
+
+
+"Harissa;
+Just Spears;
+HarissaSleeve;
+Javelin,Perforate,ScatterSpear,SpearWave,TripleBarrel,StepSlash,Align,AutoSlash"
+"Selicy;
+B&I Dojo 1;
+SpellCardSleeve;
+StepSlash,ManaCatch,AutoSlash,PushSlash,FrostSlash,FrostBarrage,Anubis,Ragnarok,Quadclaws,Vortex"
+
+
+
+"Hazel;
+The Dream 2;
+SpellCardSleeve;
+StepSlash,AutoSlash,Whirl,Blink,Paragon,Inverter,Kunai,PushSlash,FrostSlash,Backstab"
+
+
+
+"Shopkeeper;
+Wakes of Vultures ;
+ShopkeeperSleeve;
+KineticWave,Fadeaway,ClawTrap,Align,Guillotine,TripleBarrel,Mine,Ragnarok,FireBreath,Northwind"
+
+
+"Selicy;
+New Deck;
+SpellCardSleeve;
+PushSlash,AutoSlash,StepLance,Crossfire,Breakout,Whirl,Shear,Align,MagicClaw,Vivisection"
+
+"Selicy;
+New Deck;
+SpellCardSleeve;
+PushSlash,AutoSlash,StepLance,Crossfire,Breakout,Whirl,Shear,Align,MagicClaw,Vivisection"
+"Shopkeeper;
+Heart of Eternity;
+SpellCardSleeve;
+Mine,Align,TripleBarrel,Ragnarok,ClawTrap,KineticWave,Fadeaway,Guillotine,BombToss,Minigun"
+"Selicy;
+uzattai nda g girl;
+RedSaffronSleeve;
+PushSlash,StepSlash,Whirl,AutoSlash,StepLance,Minigun,Crossfire,Paragon,Breakout"
+"Harissa;
+Purissa;
+SelicySleeve;
+Inverter,Sacrifire,StepSlash,AutoSlash,KineticWave,SummonBeamCrystal,Minigun,Paragon,BouncingBlade,Harrier"
+"Gunner;
+Mickle Deck 2;
+SpellCardSleeve;
+StepSlash,AutoSlash,Whirl,Sacrifire,Entangle,VinePull,Combust,AirRifle,KineticWave"
+
+"Saffron;
+I Havent tested this;
+SpellCardSleeve;
+FrostSlash,Minigun,Ragnarok,Shear,Shotgun,StepSlash,Whirl,Vortex,Align,Thunder"
+"Chiretta;
+Idek;
+ChirettaSleeve;
+Seize,Blink,PushSlash,Backstab,Boomerang,BombToss,Ragnarok,Minigun,Entangle,Whirl"
+"Saffron;
+BEGONE;
+RedSaffronSleeve;
+PushSlash,Whirl,KineticWave,Minigun,TripleBarrel,Backstab,StepSlash,AutoSlash,FireBreath,StripMine"
+"Chiretta;
+flame;
+SpellCardSleeve;
+Ember,Combust,Firewall,Salamander,Meteors,Stinger,Pyroblast,Twinferno,BombToss"
+"Saffron;
+w1 carry me plez ;
+RedSaffronSleeve;
+KineticWave,Thunder,Whirl,Minigun,AirRifle,BouncingBlade,StepSlash,AutoSlash"
+"Saffron;
+test2;
+SaffronSleeve;
+Whirl,Paragon,BouncingBlade,PushSlash,Backstab,KineticWave,Rush,StepSlash,Minigun"
+
+
+
+
+
+"Harissa;
+Unleash ;
+SerifSleeve;
+Unleash,Innervate,PowerDrain,Fling,Quadclaws,Rush,ManaCatch,Skewer,SwallowSpear"
+
+
+
+
+"Hazel;
+Modern Bombs;
+SpellCardSleeve;
+BombToss,StepSlash,AutoSlash,PushSlash,SummonBeamCrystal,Whirl,Shotgun,Pull,Backstab,Shear"
+
+
+
+"Shopkeeper;
+O-04-21-16;
+LandscapeRedSleeve;
+ColdMedicine,Ember,WreckingBall,ClawTrap,ManaCatch,Align,Mine,TripleBarrel,Ultrangle,Ragnarok"
+
+
+"Selicy;
+karambit;
+SpellCardSleeve;
+PushSlash,AutoSlash,StepLance,Whirl,Vivisection,Breakout,Crossfire,MagicClaw,Northwind"
+
+"Selicy;
+karambit;
+SpellCardSleeve;
+PushSlash,AutoSlash,StepLance,Whirl,Vivisection,Breakout,Crossfire,MagicClaw,Northwind"
+"Shopkeeper;
+A Dreams End;
+SerifSleeve;
+PushSlash,Fadeaway,BouncingBlade,KineticWave,ManaCatch,Blink,Shear,DoubleTeam,StepSlash,Inverter"
+"Neera;
+Shouieera;
+SpellCardSleeve;
+AutoSlash,Entangle,Perforate,PushSlash,SnowCone,StepSlash,CrystalRifle,FrostBarrage,Transmute"
+"Shopkeeper;
+Heart of Eternity;
+SpellCardSleeve;
+Align,TripleBarrel,KineticWave,Fadeaway,ClawTrap,Ragnarok,Guillotine,Mine,BombToss,Minigun"
+"Queen;
+Day 1 Duelin;
+SpellCardSleeve;
+IonCannon,AirRifle,Thunder,Minigun,Tsunami,PushSlash,Backstab,HyperBeam,Kunai"
+"Saffron;
+Eastern Impact SP;
+SaffronSleeve;
+SpearCatch,KineticWave,Minigun,Javelin,SpearWave,Transmute,Rush,Toxicross"
+"Saffron;
+Hieroglyphein ;
+SaffronSleeve;
+SpearCatch,Minigun,Javelin,Venoshock,SpearWave,StepSlash,Rush,Toxicross,KineticWave,AirRifle"
+"Hazel;
+Step;
+SpellCardSleeve;
+AutoSlash,Backstab,BombToss,DiagBeam,PushSlash,StepSlash,Zenith,FrostBarrage,StripMine,Boomerang"
+"Terra;
+Terraform;
+TerraSleeve;
+Thunder,Perforate,Earthquake,AirRifle,Align,PushSlash,ShadowShift,Fadeaway"
+"Chiretta;
+Combo (Jonty);
+ChirettaSleeve;
+Whirl,StepSlash,PushSlash,Downfall,Thunder,Minigun,Blink,Kunai,Seize,Backstab"
+"Terra;
+flame;
+LandscapeRedSleeve;
+Ember,Combust,Firewall,Salamander,Meteors,Stinger,Pyroblast,Twinferno,BombToss"
+
+
+"Harissa;
+Yukishizuku Harrisa ;
+HarissaSleeve;
+Slowball,Javelin,ScatterSpear,SpearCatch,StepSlash,AutoSlash,Align,Inverter"
+
+
+"Neera;
+oops! all frost;
+SelicySleeve;
+FrostBarrage,CrystalRifle,SnowCone,AcidRain,SummonBarricade,Entangle,IcePick,PushSlash,Anubis"
+"Chiretta;
+B&I Dojo 1;
+SpellCardSleeve;
+Backstab,Minigun,Entangle,ClawTrap,Whirl,BombToss,Thunder,PushSlash,Blink,StepSlash"
+
+"Violette;
+Viohazard;
+SpellCardSleeve;
+SummonBarricade,SnowCone,FireBreath,Thunder,TriThunder,Whirl,Backstab,Minigun,PushSlash,AutoSlash"
+"Shopkeeper;
+Pmattg #2^;
+SpellCardSleeve;
+BowSnipe,Guillotine,KineticWave,Mine,Ragnarok,TripleBarrel,ClawTrap,Align,Fadeaway,SummonTurretSD"
+"Shopkeeper;
+fleshwater ;
+SerifSleeve;
+BowSnipe,Guillotine,KineticWave,Mine,Ragnarok,TripleBarrel,ClawTrap,Align,Fadeaway,SummonTurretSD"
+"Terra;
+B&I Dojo #2;
+SpellCardSleeve;
+Ultrangle,Study,Seize,PushSlash,Downfall,Ragnarok,Align,Tsunami,Rush,Backstab"
+"Maypul;
+PMattG #3;
+SpellCardSleeve;
+PushSlash,Backstab,Quadclaws,FireBreath,Anubis,TripleBarrel,Align,KineticWave,StepSlash,StripMine"
+"Saffron;
+Hieroglyphein;
+SpellCardSleeve;
+SpearCatch,MiniGun,Javelin,Venoshock,SpearWave,StepSlash,Rush,Toxicross,KineticWave,AirRifle"
+"Violette;
+Composite;
+RedSaffronSleeve;
+StepSlash,AutoSlash,Whirl,Thunder,Backstab,PushSlash,BombToss,FireBreath,ClawTrap,StripMine"
+"Selicy;
+tenicy;
+SpellCardSleeve;
+AutoSlash,PushSlash,StepSlash,FrostSlash,FrostBarrage,SnowCone,Whirl,Thunder"
+
+"Reva;
+Vintage Ping-Pong*^;
+SpellCardSleeve;
+StripMine,Backstab,Shear,AutoSlash,PushSlash,Quadclaws,ManaCatch,Whirl,Kunai,StepSlash"
+"Shopkeeper;
+LowLvlSparring;
+ShopkeeperSleeve;
+Needler,MagicClaw,Rocket,ClawTrap,Skewer,Boomerang,Gust,Fadeaway"
+"Reva;
+Vintage Ping-Pong*^;
+SpellCardSleeve;
+StripMine,Backstab,Shear,AutoSlash,PushSlash,Quadclaws,ManaCatch,Whirl,Kunai,StepSlash"
+"Reva;
+MGR: Revangeance ;
+LandscapeRedSleeve;
+PushSlash,Backstab,StepSlash,AutoSlash,KineticWave,Pull,Inverter,Shear,StripMine,ShieldThrow"
+"Selicy;
+shiv;
+SpellCardSleeve;
+SnowCone,StepLance,Northwind,Whirl,Shear,PushSlash,StepSlash,AutoSlash,Crossfire,Breakout"
+"Reva;
+Back to Basics;
+RevaSleeve;
+Pull,KineticWave,StepSlash,AutoSlash,PushSlash,Backstab,Whirl,Shear,Inverter,ManaCatch"
+"Hazel;
+Exodus;
+TerraSleeve;
+Whirl,AutoSlash,Backstab,WarpRays,StepSlash,PushSlash,Rush,Kunai,Venoshock,Minigun"
+
+
+"Shopkeeper;
+Tetra(Angle)Drive;
+ShopkeeperSleeve;
+Tetra,Mine,Fadeaway,PushSlash,Guillotine,WreckingBall,GolfBomb,Minigun,DiagBeam,Whirl"
+"Hazel;
+RomperCosas;
+SpellCardSleeve;
+Boomerang,SummonCrevasse,DimensionSword,FrostBarrage,FrostSlash,Glitter,Guillotine,IonCannon,Starfield,SummonBarricade"
+"Reva;
+Reva Girlboss;
+SpellCardSleeve;
+Vivisection,StepSlash,AutoSlash,Apprehend,Pull,DoubleTeam,ShadowShift,SummonBarricade"
+"Chiretta;
+Combo (Rag);
+ChirettaSleeve;
+Whirl,StepSlash,PushSlash,Downfall,Thunder,Minigun,Blink,Kunai,Backstab,Ragnarok"
+"Terra;
+selicy;
+TerraSleeve;
+Lockdown,WreckingBall,BreakShot,IonCannon,GolfBomb,Starfield,Cataclysm,Eruption"
+
+
+
+
+
+"Saffron;
+My First Deck;
+SaffronSleeve;
+Thunder,KineticWave,StepSlash,FrostBarrage,Align,TripleBarrel,FireBreath,Boomerang"
+
+
+
+
+"Terra;
+julie ;
+SerifSleeve;
+Eruption,Lockdown,GolfBomb,Jackhammer,Cataclysm,Starfield,ManaCatch,WreckingBall,Meteors,SwallowSpear"
+
+"Neera;
+PMattG #3;
+SpellCardSleeve;
+WreckingBall,StepSlash,PushSlash,Backstab,SwallowSpear,Transmute,SummonBeamCrystal,BombToss,FrostSlash,SpearWave"
+"Queen;
+Elaine;
+SpellCardSleeve;
+StepSlash,AutoSlash,Minigun,DimensionSword,Javelin,ClawTrap,StepLance,Entrench,BreakShot"
+"Queen;
+Snowfall ;
+SpellCardSleeve;
+FrostBarrage,CrystalRifle,SnowCone,ClawTrap,AutoSlash,StepSlash,BouncingBlade,Heatseekers,Missiletow"
+
+
+"Violette;
+7 of Diamonds**;
+SpellCardSleeve;
+SpearWave,Transmute,Javelin,SpearCatch,ManaCatch,BombToss,Inverter,Vivisection,Fadeaway,PushSlash"
+
+"Violette;
+7 of Diamonds**;
+SpellCardSleeve;
+SpearWave,Transmute,Javelin,SpearCatch,ManaCatch,BombToss,Inverter,Vivisection,Fadeaway,PushSlash"
+"Reva;
+FrostRevaMickle ;
+NeeraSleeve;
+StepSlash,AutoSlash,CrystalRifle,SummonBarricade,SnowCone,ManaCatch,PushSlash,Backstab,ClawTrap,FireBreath"
+"Selicy;
+cinquedea;
+LandscapeRedSleeve;
+StepLance,Breakout,Crossfire,SnowCone,FrostBarrage,FrostSlash,Align,Shear,PushSlash,Whirl"
+"Reva;
+Saffron at Home;
+SaffronSleeve;
+Pull,Northwind,KineticWave,StepSlash,AutoSlash,PushSlash,Whirl,Minigun,ShieldThrow,TripleBarrel"
+
+
+
+"Hazel;
+Veneno;
+SpellCardSleeve;
+SummonBarricade,AcidRain,Anubis,BackSlash,Cataclysm,Gust,IonCannon,SummonTurretLux,Monsoon,Venoshock"
+"Chiretta;
+Chiretta Sewture;
+SpellCardSleeve;
+Lasso,DarkGrasp,Blink,Ragnarok,Rush,Downfall,Backstab,BombToss"
+"Chiretta;
+Original;
+ChirettaSleeve;
+Whirl,PushSlash,Downfall,Tetra,Minigun,Blink,Seize,Ragnarok,Align,Backstab"
+"Terra;
+bombless;
+LandscapeRedSleeve;
+Ember,Combust,Firewall,Salamander,Meteors,Stinger,Pyroblast,Twinferno"
+
+
+
+
+
+"Maypul;
+just poison spammin ;
+MaypulSleeve;
+Anubis,Kunai,ShadowShift,KineticWave,PushSlash,StepSlash,Minigun,Entangle,AutoSlash"
+
+
+
+
+
+
+"Reva;
+PMattG #3;
+SpellCardSleeve;
+AutoSlash,StepSlash,SpearCatch,ManaCatch,SwallowSpear,Shear,Twinferno,Stinger,SpearWave,WarpRays"
+
+"Shiso;
+GunnerM;
+SpellCardSleeve;
+StepSlash,AutoSlash,Whirl,Entangle,ClawTrap,Minigun,Javelin,Backstab,PushSlash,FireBreath"
+
+
+"Shopkeeper;
+knife fight*;
+SpellCardSleeve;
+DimensionSword,PushSlash,KineticWave,Shear,ManaCatch,AutoSlash,StripMine,StepSlash"
+
+"Shopkeeper;
+knife fight*;
+SpellCardSleeve;
+DimensionSword,PushSlash,KineticWave,Shear,ManaCatch,AutoSlash,StripMine,StepSlash"
+"Reva;
+Reva is Cracked;
+TerraSleeve;
+WreckingBall,Jackhammer,Starfield,Eruption,GolfBomb,Stinger,IonCannon,Anubis,Lockdown,ManaCatch"
+"Selicy;
+aurora;
+SpellCardSleeve;
+Northwind,StepLance,Crossfire,PushSlash,FrostSlash,SnowCone,FrostBarrage,Breakout,Shear,Whirl"
+"Reva;
+High Roll Reva;
+RedRevaSleeve;
+Pull,KineticWave,StepSlash,AutoSlash,PushSlash,Whirl,Backstab,Compactor,TripleBarrel,Minigun"
