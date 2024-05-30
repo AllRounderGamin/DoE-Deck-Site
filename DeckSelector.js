@@ -127,9 +127,10 @@ function fileDropHandler(e) {
 
 
 function createDeckList(list){
-  list = list.split('\r\n');
+  const initList = list.splice();
+  list = initList.split('\r\n');
   if (list.length === 1){
-    list = list.split("/n");
+    list = initList.split("/n");
   }
   /* Deck Rules
     1. The Start and End of a deck has Speech Marks
