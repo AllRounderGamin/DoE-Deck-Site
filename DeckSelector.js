@@ -128,11 +128,11 @@ function fileDropHandler(e) {
 
 function createDeckList(list){
   const initList = list;
-  console.log("PRE SPLITS");
+  console.log("PRE SPLITS", list);
   list = initList.split('\r\n');
   console.log("FIRST SPLIT", list);
   if (list.length === 1){
-    list = initList.split("/n");
+    list = initList.split("\n");
     console.log("SECOND SPLIT", list)
   }
   console.log("POST SPLITS", list);
