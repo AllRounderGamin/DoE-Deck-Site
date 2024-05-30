@@ -127,7 +127,12 @@ async function fileDropHandler(e) {
 
 
 async function createCardList(list){
-  list = list.split('\r\n');
+  // copied over from Deck Selector in case, since I made the file it *should* be unnecessary but better safe than sorry
+  const initList = list;
+  list = initList.split('\r\n');
+  if (list.length === 1){
+    list = initList.split("\n");
+  }
   list = list.filter((line) => {return line.length > 0;});
   CARD_LIST = list;
   resetIndexes();

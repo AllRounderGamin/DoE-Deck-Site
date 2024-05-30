@@ -46,7 +46,6 @@ function generateDeckSelection(){
         decksToChoose.splice(chosenIndex, 1);
         repick = false;
       } else {
-        console.log(deckIndex, JSON.stringify(skippedDecks));
         if (!skippedDecks.includes(deckIndex)){
           skippedDecks.push(deckIndex);
         } else {
@@ -128,7 +127,13 @@ function fileDropHandler(e) {
 
 
 function createDeckList(list){
-  list = list.split('\r\n');
+  // I believe pushing the file to Github removes the \r, if the user tries to add a file copied from google sheets the \r returns
+  // Annoyingly just splitting a \n causes the filter to not work and spam the console with error Issue Warnings, so this system is used instead
+  const initList = list;
+  list = initList.split('\r\n');
+  if (list.length === 1){
+    list = initList.split("\n");
+  }
   /* Deck Rules
     1. The Start and End of a deck has Speech Marks
     2. Ignore Empty Lines (stored as "")
