@@ -128,7 +128,7 @@ function fileDropHandler(e) {
 
 
 function createDeckList(list){
-  list = list.split('\r\n');
+  list = list.split('\n');
   /* Deck Rules
     1. The Start and End of a deck has Speech Marks
     2. Ignore Empty Lines (stored as "")
