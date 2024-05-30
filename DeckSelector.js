@@ -127,7 +127,7 @@ function fileDropHandler(e) {
 
 
 function createDeckList(list){
-  const initList = list.splice();
+  const initList = list;
   list = initList.split('\r\n');
   if (list.length === 1){
     list = initList.split("/n");
