@@ -1,5 +1,5 @@
 async function setUp(){
-  let defaultCards = await fetch("../CardList.txt");
+  let defaultCards = await fetch("./CardList.txt");
   defaultCards = await defaultCards.text();
   createCardList(defaultCards);
 
