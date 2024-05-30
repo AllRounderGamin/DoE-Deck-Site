@@ -46,7 +46,6 @@ function generateDeckSelection(){
         decksToChoose.splice(chosenIndex, 1);
         repick = false;
       } else {
-        console.log(deckIndex, JSON.stringify(skippedDecks));
         if (!skippedDecks.includes(deckIndex)){
           skippedDecks.push(deckIndex);
         } else {
@@ -128,13 +127,16 @@ function fileDropHandler(e) {
 
 
 function createDeckList(list){
-  list = list.split('\n');
+  list = list.split('\r\n');
+  if (list.length === 1){
+    list = list.split("/n");
+  }
   /* Deck Rules
     1. The Start and End of a deck has Speech Marks
     2. Ignore Empty Lines (stored as "")
     3. If line does not start with " and ALSO does not end with a ; or " disregard the line (this is usually headings like "Deck 1")
   */
-  list = list.filter((line) => {return line.length > 0;});
+  list = list.filter((line) => {return line !== "";});
   let currentDeck = {Character: null, Name: null, Sleeve: null, Cards: null};
   let nextProp = "Character";
   const deckList = [];
