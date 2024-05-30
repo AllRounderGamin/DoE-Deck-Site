@@ -127,7 +127,8 @@ async function fileDropHandler(e) {
 
 
 async function createCardList(list){
-  list = list.split('\r\n');
+  console.log(list);
+  list = list.split('\n');
   list = list.filter((line) => {return line.length > 0;});
   CARD_LIST = list;
   resetIndexes();
