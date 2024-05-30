@@ -127,15 +127,13 @@ function fileDropHandler(e) {
 
 
 function createDeckList(list){
+  // I believe pushing the file to Github removes the \r, if the user tries to add a file copied from google sheets the \r returns
+  // Annoyingly just splitting a \n didnt fix the issue so instead this has been substituted
   const initList = list;
-  console.log("PRE SPLITS", list);
-  list = initList.split('\r\n');
-  console.log("FIRST SPLIT", list);
+  list = initList.split('\n');
   if (list.length === 1){
     list = initList.split("\n");
-    console.log("SECOND SPLIT", list)
   }
-  console.log("POST SPLITS", list);
   /* Deck Rules
     1. The Start and End of a deck has Speech Marks
     2. Ignore Empty Lines (stored as "")

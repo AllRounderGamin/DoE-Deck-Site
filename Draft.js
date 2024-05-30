@@ -130,7 +130,7 @@ async function createCardList(list){
   const initList = list;
   list = initList.split('\r\n');
   if (list.length === 1){
-    list = initList.split("/n");
+    list = initList.split("\n");
   }
   list = list.filter((line) => {return line.length > 0;});
   CARD_LIST = list;
