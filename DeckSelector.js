@@ -128,9 +128,9 @@ function fileDropHandler(e) {
 
 function createDeckList(list){
   // I believe pushing the file to Github removes the \r, if the user tries to add a file copied from google sheets the \r returns
-  // Annoyingly just splitting a \n didnt fix the issue so instead this has been substituted
+  // Annoyingly just splitting a \n causes the filter to not work and spam the console with error Issue Warnings, so this system is used instead
   const initList = list;
-  list = initList.split('\n');
+  list = initList.split('\r\n');
   if (list.length === 1){
     list = initList.split("\n");
   }
@@ -139,7 +139,7 @@ function createDeckList(list){
     2. Ignore Empty Lines (stored as "")
     3. If line does not start with " and ALSO does not end with a ; or " disregard the line (this is usually headings like "Deck 1")
   */
-  list = list.filter((line) => {return line !== "";});
+  list = list.filter((line) => {return line.length > 0;});
   let currentDeck = {Character: null, Name: null, Sleeve: null, Cards: null};
   let nextProp = "Character";
   const deckList = [];

@@ -127,6 +127,7 @@ async function fileDropHandler(e) {
 
 
 async function createCardList(list){
+  // copied over from Deck Selector in case, since I made the file it *should* be unnecessary but better safe than sorry
   const initList = list;
   list = initList.split('\r\n');
   if (list.length === 1){
