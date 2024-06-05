@@ -24,16 +24,26 @@ function clearCardBox(){
 function drawCard(){
   let cardsToChoose = JSON.parse(localStorage.getItem("DraftSelector-IndexArray"));
   const numToDraw = document.querySelector("#numberOfCards").value;
-  if (!Number.isInteger(+numToDraw)){
+  // Html number inputs return non numbers as empty strings
+  if (numToDraw.length === 0 || Math.floor(numToDraw) != numToDraw){
     document.querySelector("#warningText").textContent = "Invalid draw value";
     return;
+  }
+  if (document.querySelector("#seedInput").value.length === 0){
+    SEED = generateSeed();
+  } else if (SEED === null) {
+    SEED = Math.floor(document.querySelector("#seedInput").value);
+  }
+  if (document.querySelector("#seedInput").disabled === false){
+    document.querySelector("#seedInput").value = Math.floor(SEED);
+    document.querySelector("#seedInput").disabled = true;
   }
   for (let i = 0; i < numToDraw; i++){
     if  (cardsToChoose.length < 1){
       document.querySelector("#warningText").textContent = "No more cards to draw";
       return;
     }
-    const chosenIndex = Math.floor(Math.random() * cardsToChoose.length);
+    const chosenIndex = Math.floor(Mulberry32(SEED) * cardsToChoose.length);
     const cardIndex = cardsToChoose[chosenIndex];
     const newCardZone = document.createElement("div");
     newCardZone.setAttribute("class", "select");
@@ -52,6 +62,7 @@ function drawCard(){
 
     document.querySelector("#Cards").appendChild(newCardZone);
     cardsToChoose.splice(chosenIndex, 1);
+    SEED = (Mulberry32(SEED)*2**32)>>>0
   }
   localStorage.setItem("DraftSelector-IndexArray", JSON.stringify(cardsToChoose));
   document.querySelector("#warningText").textContent = "";
@@ -110,6 +121,9 @@ function resetIndexes(){
   }
   localStorage.setItem("DraftSelector-IndexArray", JSON.stringify([...Array(CARD_LIST.length).keys()]));
   clearCardBox();
+  document.querySelector("#seedInput").value = "";
+  document.querySelector("#seedInput").disabled = false;
+  SEED = null;
 }
 
 
@@ -127,7 +141,7 @@ async function fileDropHandler(e) {
 
 
 async function createCardList(list){
-  // copied over from Deck Selector in case, since I made the file it *should* be unnecessary but better safe than sorry
+  // copied over from Deck Selector just in case, since I made the file in notepad not sheets it *should* be unnecessary but better safe than sorry
   const initList = list;
   list = initList.split('\r\n');
   if (list.length === 1){
@@ -140,6 +154,19 @@ async function createCardList(list){
 }
 
 let CARD_LIST = [];
+let SEED = null;
 window.addEventListener("load", setUp);
 
 
+// https://stackoverflow.com/questions/521295/seeding-the-random-number-generator-in-javascript
+
+function Mulberry32(a){
+    let t = a += 0x6D2B79F5;
+    t = Math.imul(t ^ t >>> 15, t | 1);
+    t ^= t + Math.imul(t ^ t >>> 7, t | 61);
+    return ((t ^ t >>> 14) >>> 0) / 4294967296;
+}
+
+function generateSeed(){
+  return (Math.random()*2**32)>>>0;
+}

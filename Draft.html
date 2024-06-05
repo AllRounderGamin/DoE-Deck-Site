@@ -9,12 +9,16 @@
 </head>
 <body>
 <div class="buttons">
-    <div id = "generator">
+    <div id id = "cardGenerator">
         <button type="button" id="generateButton">Draw X Cards</button>
         <label for="numberOfCards" id="numLabel">X = </label>
         <input type="number" id="numberOfCards" min="1" max="151" value="1" placeholder="Num of cards to draw">
     </div>
-    <button type="button" id="resetButton">Reset Cards</button>
+    <div id="seedGenerator">
+        <label for="seedInput" id="seedLabel">Seed:</label>
+        <input type="number" id="seedInput" placeholder="Leave blank for random">
+    </div>
+    <button type="button" id="resetButton">Reset Drawn Cards</button>
     <a download id="downloadLink" href="./CardList.txt">Download Card List (v 2.40)</a>
 </div>
 <div id="deckBuilder">

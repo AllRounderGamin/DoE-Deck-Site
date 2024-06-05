@@ -182,10 +182,10 @@ function createDeckList(list){
   }
   DECK_LIST = deckList;
   const storage = localStorage.getItem("DeckSelector-IndexArray");
-  if (!storage || (storage && JSON.parse(localStorage.getItem("DeckSelector-IndexArray")).length > deckList.length)){
+  if (!storage){
     localStorage.setItem("DeckSelector-IndexArray", JSON.stringify([...Array(DECK_LIST.length).keys()]));
   }
-  document.querySelector("#warningText").textContent = "Decks Loaded";
+  document.querySelector("#warningText").textContent = "Decks Loaded, if loading a different decklist remember to reset removed decks";
 }
 
 
