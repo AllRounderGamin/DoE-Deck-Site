@@ -9,6 +9,7 @@ async function setUp(){
   document.querySelector("#dropZone").addEventListener("dragover", (e) => {e.preventDefault();});
   document.querySelector("#resetButton").addEventListener("click", resetIndexes);
   document.querySelector("#generateButton").addEventListener("click", drawCard);
+  document.querySelector("#deselectButton").addEventListener("click", deselectCards);
 }
 
 
@@ -18,6 +19,13 @@ function clearCardBox(){
     box.removeChild(box.lastChild);
   }
   document.querySelector("#warningText").textContent = "";
+}
+
+function deselectCards(){
+  const cards = document.querySelector("#Cards").querySelectorAll("input");
+  for (let card of cards){
+    card.checked = false;
+  }
 }
 
 
