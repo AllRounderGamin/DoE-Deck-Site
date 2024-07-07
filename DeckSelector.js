@@ -72,6 +72,7 @@ function generateDeckSelection(){
 
 
 function checkForDupes(newDeck, deckList){
+  console.log(newDeck);
   newDeck = newDeck.Cards.split(",").sort();
   for (let deck of deckList){
     deckCards = deck.Cards.split(",").sort();
@@ -93,7 +94,9 @@ async function copyDeckToClipboard(e){
     for (let line of deck.textContent.split(";")){
       clipboard += line + ";\n";
     }
-    clipboard += "\n";
+    clipboard = clipboard.substring(0, clipboard.length - 2);
+    console.log(clipboard);
+    clipboard += "\n\n";
   }
   if (clipboard.length === 3){
     document.querySelector("#warningText").textContent = "No Decks To Copy!";
