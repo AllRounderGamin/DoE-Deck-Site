@@ -72,7 +72,6 @@ function generateDeckSelection(){
 
 
 function checkForDupes(newDeck, deckList){
-  console.log(newDeck);
   newDeck = newDeck.Cards.split(",").sort();
   for (let deck of deckList){
     deckCards = deck.Cards.split(",").sort();
@@ -95,7 +94,6 @@ async function copyDeckToClipboard(e){
       clipboard += line + ";\n";
     }
     clipboard = clipboard.substring(0, clipboard.length - 2);
-    console.log(clipboard);
     clipboard += "\n\n";
   }
   if (clipboard.length === 3){
