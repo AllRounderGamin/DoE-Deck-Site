@@ -52,6 +52,7 @@ function createDeck(){
     const newCard = document.createElement("p");
     newCard.setAttribute("class", "card");
     newCard.textContent = cardsToChoose[cardIndex];
+    cardsToChoose.splice(cardIndex, 1);
 
 
     document.querySelector("#spellsChose").appendChild(newCard);
