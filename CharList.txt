@@ -9,7 +9,8 @@ Chiretta
 Gunner
 Shopkeeper
 Harissa
-Dreadywyrm
+Dreadwyrm
 Neera
 Queen
 Maypul
+Random

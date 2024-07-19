@@ -20,73 +20,10 @@
     </div>
     <button type="button" id="resetButton">Reset Drawn Cards</button>
     <a download id="downloadLink" href="./CardList.txt">Download Card List (v 2.40)</a>
+    <a download id="downloadLink" href="./CharList.txt">Download Char List (v 2.40)</a>
 </div>
 <div id="deckBuilder">
     <div class="builderBox" id="Characters">
-        <div class="select">
-            <input type="radio" id="Saffron" value="Saffron" name="char" />
-            <label for="Saffron">Saffron</label>
-        </div>
-        <div class="select">
-            <input type="radio" id="Selicy" value="Selicy" name="char"/>
-            <label for="Selicy">Selicy</label>
-        </div>
-        <div class="select">
-            <input type="radio" id="Hazel" value="Hazel" name="char" />
-            <label for="Hazel">Hazel</label>
-        </div>
-        <div class="select">
-            <input type="radio" id="Terra" value="Terra" name="char" />
-            <label for="Terra">Terra</label>
-        </div>
-        <div class="select">
-            <input type="radio" id="Shiso" value="Shiso" name="char" />
-            <label for="Shiso">Shiso</label>
-        </div>
-        <div class="select">
-            <input type="radio" id="Violette" value="Violette" name="char" />
-            <label for="Violette">Violette</label>
-        </div>
-        <div class="select">
-            <input type="radio" id="Reva" value="Reva" name="char" />
-            <label for="Reva">Reva</label>
-        </div>
-        <div class="select">
-            <input type="radio" id="Chiretta" value="Chiretta" name="char" />
-            <label for="Chiretta">Chiretta</label>
-        </div>
-        <div class="select">
-            <input type="radio" id="Gunner" value="Gunner" name="char" />
-            <label for="Gunner">Gunner</label>
-        </div>
-        <div class="select">
-            <input type="radio" id="Shopkeeper" value="Shopkeeper" name="char" />
-            <label for="Shopkeeper">Shopkeeper</label>
-        </div>
-        <div class="select">
-            <input type="radio" id="Harissa" value="Harissa" name="char" />
-            <label for="Harissa">Harissa</label>
-        </div>
-        <div class="select">
-            <input type="radio" id="Dreadwyrm" value="Dreadwyrm" name="char" />
-            <label for="Dreadwyrm">Dreadwyrm</label>
-        </div>
-        <div class="select">
-            <input type="radio" id="Neera" value="Neera" name="char" />
-            <label for="Neera">Neera</label>
-        </div>
-        <div class="select">
-        <input type="radio" id="Queen" value="Queen" name="char"/>
-        <label for="Queen">Queen</label>
-        </div>
-        <div class="select">
-        <input type="radio" id="Maypul" value="Maypul" name="char" />
-        <label for="Maypul">Maypul</label>
-        </div>
-        <div class="select">
-            <input type="radio" id="Random" value="Random" name="char" />
-            <label for="Random">Random</label>
-        </div>
     </div>
     <div class="builderBox" id="Cards"></div>
 </div>
@@ -94,14 +31,26 @@
 <div class="buttons">
     <button type="button" id="copyDeckButton">Copy Built Deck to Clipboard</button>
     <button type="button" id="copyCardsButton">Copy Cards to Clipboard</button>
+    <button type="button" id="randomCharButton">Select Random Character</button>
+    <div>
+        <label for="cardCheck" id="cardCheckLabel">Check Valid Card Count:</label>
+        <input type="checkbox" id="cardCheck" checked>
+    </div>
+    <button type="button" id="selectAllCardsButton">Select All Cards</button>
     <button type="button" id="deselectButton">Deselect Cards</button>
 </div>
 
 <p id="warningText"></p>
 
-<div id="dropZone"> 
-    <p>Drop Custom Card List Here (TXT)</p>
-    <p>By default, the list available for download is used</p> 
+<div id = "dropZones">
+    <div id="charDropZone" class="dropZone"> 
+        <p>Drop Custom Char List Here (TXT)</p>
+        <p>By default, the list available for download is used</p> 
+    </div>
+    <div id="cardDropZone" class="dropZone"> 
+        <p>Drop Custom Card List Here (TXT)</p>
+        <p>By default, the list available for download is used</p> 
+    </div>
 </div>
 </body>
 </html>

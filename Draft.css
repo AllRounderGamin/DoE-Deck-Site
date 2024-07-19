@@ -27,17 +27,28 @@ p{
     text-align: center;
 }
 
-#dropZone{
-    border: black thick dotted;
+#dropZones{
     width: 80%;
     height: 30%;
     margin: 50px 10%;
     text-align: center;
-    display:flex;
+    display: flex;
+    align-items: center; 
+    flex-direction: row;
+    justify-content: center;
+}
+
+.dropZone{
+    width: 50%;
+    min-height: 100%;
+    border: black thick dotted;
+    display: flex;
     justify-content: space-around;   
     align-items: center; 
     flex-direction: column;
+    margin: 0 5%;
 }
+
 
 .buttons{
     display: flex;

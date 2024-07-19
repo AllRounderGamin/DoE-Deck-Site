@@ -1,15 +1,22 @@
 async function setUp(){
   let defaultCards = await fetch("./CardList.txt");
+  let defaultChars = await fetch("./CharList.txt");
   defaultCards = await defaultCards.text();
-  createCardList(defaultCards);
+  defaultChars = await defaultChars.text();
+  CARD_LIST = await createGlobalList(defaultCards);
+  createCharSelects(await createGlobalList(defaultChars));
 
   document.querySelector("#copyDeckButton").addEventListener("click", copyDeckToClipboard);
   document.querySelector("#copyCardsButton").addEventListener("click", copyCardstoClipboard);
-  document.querySelector("#dropZone").addEventListener("drop", fileDropHandler);
-  document.querySelector("#dropZone").addEventListener("dragover", (e) => {e.preventDefault();});
+  document.querySelector("#cardDropZone").addEventListener("drop", (e) => {fileDropHandler(e, "card")});
+  document.querySelector("#cardDropZone").addEventListener("dragover", (e) => {e.preventDefault();});
+  document.querySelector("#charDropZone").addEventListener("drop", (e) => {fileDropHandler(e, "char")});
+  document.querySelector("#charDropZone").addEventListener("dragover", (e) => {e.preventDefault();});
   document.querySelector("#resetButton").addEventListener("click", resetIndexes);
   document.querySelector("#generateButton").addEventListener("click", drawCard);
-  document.querySelector("#deselectButton").addEventListener("click", deselectCards);
+  document.querySelector("#randomCharButton").addEventListener("click", selectRandomChar);
+  document.querySelector("#deselectButton").addEventListener("click", () => {toggleCards(false)});
+  document.querySelector("#selectAllCardsButton").addEventListener("click", () => {toggleCards(true)});
 }
 
 
@@ -21,11 +28,24 @@ function clearCardBox(){
   document.querySelector("#warningText").textContent = "";
 }
 
-function deselectCards(){
+function toggleCards(opt){
   const cards = document.querySelector("#Cards").querySelectorAll("input");
   for (let card of cards){
-    card.checked = false;
+    card.checked = opt;
   }
+}
+
+
+function selectRandomChar(){
+  const chars = document.querySelector("#Characters").querySelectorAll("input");
+  if (chars.length < 1){
+    return;
+  }
+  for (let char of chars){
+    char.checked = false;
+  }
+  const index = Math.floor(Math.random() * chars.length);
+  chars[index].checked = true;
 }
 
 
@@ -33,7 +53,7 @@ function drawCard(){
   let cardsToChoose = JSON.parse(localStorage.getItem("DraftSelector-IndexArray"));
   const numToDraw = document.querySelector("#numberOfCards").value;
   // Html number inputs return non numbers as empty strings
-  if (numToDraw.length === 0 || Math.floor(numToDraw) != numToDraw){
+  if (numToDraw.length === 0 || Math.floor(numToDraw) != numToDraw || numToDraw < 0){
     document.querySelector("#warningText").textContent = "Invalid draw value";
     return;
   }
@@ -102,7 +122,8 @@ async function copyDeckToClipboard(){
     }
   }
   clipboard = clipboard.substring(0, clipboard.length - 1);
-  if (cardCount < 8 || cardCount > 10){
+  console.log(document.querySelector("#cardCheck").checked)
+  if (document.querySelector("#cardCheck").checked && (cardCount < 8 || cardCount > 10)){
     document.querySelector("#warningText").textContent = "Invalid Card Count";
     return;
   }
@@ -135,20 +156,24 @@ function resetIndexes(){
 }
 
 
-async function fileDropHandler(e) {
+async function fileDropHandler(e, type) {
   e.preventDefault();
   if (e.dataTransfer.files[0]) {
     const fileName = e.dataTransfer.files[0].name.split('.');
     if (fileName[fileName.length - 1] === 'txt') {
       const reader = new FileReader();
       reader.readAsText(e.dataTransfer.files[0]);
-      reader.onload = () => { createCardList(reader.result) };
+      if (type === "card"){
+        reader.onload = async () => { CARD_LIST = await createGlobalList(reader.result) };
+      } else if (type === "char"){
+        reader.onload = async () => { createCharSelects(await createGlobalList(reader.result)) };
+      }
     }
   }
 }
 
 
-async function createCardList(list){
+async function createGlobalList(list){
   // copied over from Deck Selector just in case, since I made the file in notepad not sheets it *should* be unnecessary but better safe than sorry
   const initList = list;
   list = initList.split('\r\n');
@@ -156,15 +181,41 @@ async function createCardList(list){
     list = initList.split("\n");
   }
   list = list.filter((line) => {return line.length > 0;});
-  CARD_LIST = list;
   resetIndexes();
-  document.querySelector("#warningText").textContent = "Cards Loaded!";
+  document.querySelector("#warningText").textContent = "List Loaded!";
+  return list;
 }
 
 let CARD_LIST = [];
 let SEED = null;
 window.addEventListener("load", setUp);
 
+
+async function createCharSelects(chars){
+  const charArea = document.querySelector("#Characters");
+  while (charArea.firstChild){
+    charArea.removeChild(charArea.lastChild);
+  }
+  for (let char of chars){
+    const charZone = document.createElement("div");
+    charZone.setAttribute("class", "select");
+
+    const input = document.createElement("input");
+    input.type = "radio";
+    input.id = char;
+    input.value = char;
+    input.name = "char";
+    
+    const label = document.createElement("label");
+    label.for = char;
+    label.textContent = char;
+
+    charZone.appendChild(input);
+    charZone.appendChild(label);
+
+    charArea.appendChild(charZone);
+  }
+}
 
 // https://stackoverflow.com/questions/521295/seeding-the-random-number-generator-in-javascript
 
