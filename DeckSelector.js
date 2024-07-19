@@ -93,7 +93,8 @@ async function copyDeckToClipboard(e){
     for (let line of deck.textContent.split(";")){
       clipboard += line + ";\n";
     }
-    clipboard += "\n";
+    clipboard = clipboard.substring(0, clipboard.length - 2);
+    clipboard += "\n\n";
   }
   if (clipboard.length === 3){
     document.querySelector("#warningText").textContent = "No Decks To Copy!";
