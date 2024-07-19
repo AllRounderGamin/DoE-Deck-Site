@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOE Draft Selector</title>
+    <script src="Chaos.js"></script>
+    <link href="./Chaos.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+</head>
+<body>
+<div class="buttons">
+    <div id id = "cardGenerator">
+        <button type="button" id="generateButton">Generate Deck</button>
+    </div>
+    <div id="seedGenerator">
+        <label for="seedInput" id="seedLabel">Seed:</label>
+        <input type="number" id="seedInput" placeholder="Leave blank for random">
+    </div>
+    <button type="button" id="resetButton">Reset Seed</button>
+    <a download id="downloadLink" href="./CardList.txt">Download Card List (v 2.40)</a>
+    <a download id="downloadLink" href="./CharList.txt">Download Char List (v 2.40)</a>
+</div>
+<div id="deckBox">
+    <h1 id = charName></h1>
+    <div id="spellsChose">
+    </div>
+</div>
+
+<div class="buttons">
+    <button type="button" id="copyDeckButton">Copy Deck to Clipboard</button>
+</div>
+
+<p id="warningText"></p>
+
+<div id = "dropZones">
+    <div id="charDropZone" class="dropZone"> 
+        <p>Drop Custom Char List Here (TXT)</p>
+        <p>By default, the list available for download is used</p> 
+    </div>
+    <div id="cardDropZone" class="dropZone"> 
+        <p>Drop Custom Card List Here (TXT)</p>
+        <p>By default, the list available for download is used</p> 
+    </div>
+</div>
+</body>
+</html>
