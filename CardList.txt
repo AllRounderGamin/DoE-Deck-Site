@@ -43,7 +43,6 @@ Fadeaway
 FireBreath
 Firewall
 Flamberge
-Fling
 Flurry
 FreezerBurn
 FrostBarrage
@@ -96,6 +95,7 @@ Pyroblast
 Quadclaws
 Rage
 Ragnarok
+Rake
 Reaper
 Rocket
 Rush
@@ -103,7 +103,6 @@ Sacrifire
 Salamander
 Salvo
 ScatterSpear
-SummonTurretSD
 Seize
 SummonTurretSentry
 ShadowShift
@@ -147,5 +146,6 @@ Vortex
 WarpRays
 Whiplash
 Whirl
+WindBurst
 WreckingBall
 Zenith

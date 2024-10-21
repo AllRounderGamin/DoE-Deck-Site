@@ -1,6 +1,6 @@
 async function setUp(){
-  let defaultCards = await fetch("./CardList.txt");
-  let defaultChars = await fetch("./CharList.txt");
+  let defaultCards = await fetch("../CardList.txt");
+  let defaultChars = await fetch("../CharList.txt");
   defaultCards = await defaultCards.text();
   defaultChars = await defaultChars.text();
   CARD_LIST = await createGlobalList(defaultCards);

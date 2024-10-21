@@ -9,6 +9,8 @@ Chiretta
 Gunner
 Shopkeeper
 Harissa
+Perilla
+Terrable
 Dreadwyrm
 Neera
 Queen

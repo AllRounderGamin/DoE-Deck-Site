@@ -1,5 +1,5 @@
 async function setUp(){
-  let defaultDecks = await fetch("./WeekAltDeckList2.txt");
+  let defaultDecks = await fetch("./WeekAltDeckList.txt");
   defaultDecks = await defaultDecks.text();
   createDeckList(defaultDecks);
 
